@@ -176,6 +176,17 @@ OF_UNBIND_SDCARD_F2FS := 1
 # dispense with flashlight on both variants
 OF_FLASHLIGHT_ENABLE := 0
 
+# prevent MIUI from overwriting OrangeFox
+   	OF_PATCH_AVB20 := 1
+
+       	# MIUI/delta incremental OTA stuff
+       	OF_NO_MIUI_PATCH_WARNING := 1
+       	OF_KEEP_DM_VERITY := 1
+       	OF_DISABLE_MIUI_OTA_BY_DEFAULT := 1
+   	OF_SUPPORT_ALL_BLOCK_OTA_UPDATES := 1
+   	OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR := 1
+
+
 
 # Display
 TARGET_SCREEN_DENSITY := 440
