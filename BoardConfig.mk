@@ -173,8 +173,6 @@ OF_ENABLE_LPTOOLS := 1
 # ensure that /sdcard is bind-unmounted before f2fs data repair or format (required for FBE v1)
 OF_UNBIND_SDCARD_F2FS := 1
 
-# dispense with flashlight on both variants
-OF_FLASHLIGHT_ENABLE := 0
 
 # prevent MIUI from overwriting OrangeFox
    	OF_PATCH_AVB20 := 1
