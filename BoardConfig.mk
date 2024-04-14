@@ -156,6 +156,27 @@ TW_NO_SCREEN_BLANK := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_EXCLUDE_APEX := true
 
+# screen settings
+OF_SCREEN_H := 2400
+OF_STATUS_H := 100
+OF_STATUS_INDENT_LEFT := 48
+OF_STATUS_INDENT_RIGHT := 48
+OF_CLOCK_POS := 1
+OF_USE_GREEN_LED := 0
+OF_IGNORE_LOGICAL_MOUNT_ERRORS := 1
+OF_HIDE_NOTCH := 1
+OF_DONT_PATCH_ENCRYPTED_DEVICE := 1
+OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
+OF_QUICK_BACKUP_LIST := /boot;/data;
+OF_ENABLE_LPTOOLS := 1
+
+# ensure that /sdcard is bind-unmounted before f2fs data repair or format (required for FBE v1)
+OF_UNBIND_SDCARD_F2FS := 1
+
+# dispense with flashlight on both variants
+OF_FLASHLIGHT_ENABLE := 0
+
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
