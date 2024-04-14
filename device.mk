@@ -48,10 +48,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
-# OEM otacert
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    vendor/recovery/security/miui
-
 # crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
