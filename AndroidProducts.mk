@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_miatoll.mk
+    $(LOCAL_DIR)/pb_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_miatoll-user \
-    twrp_miatoll-userdebug \
-    twrp_miatoll-eng
+    pb_miatoll-user \
+    pb_miatoll-userdebug \
+    pb_miatoll-eng
