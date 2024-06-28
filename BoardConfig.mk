@@ -201,6 +201,9 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 TW_INCLUDE_RESETPROP := true
 
+#add maintainer name
+TW_DEVICE_VERSION := By @RahulSinghBhadoriya
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
