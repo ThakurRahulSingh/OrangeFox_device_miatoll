@@ -28,6 +28,7 @@
 /vbmeta_system  emmc    /dev/block/bootdevice/by-name/vbmeta_system       	  flags=display="Vbmeta_system";backup=1;flashimg=1
 
 # Removable storage
-/usb_otg       	vfat    /dev/block/sdg1                 /dev/block/sdg         	  flags=fsflags=utf8;display="USB-Storage";storage;wipeingui;removable
+/usb_otg       	vfat    /dev/block/sdg1                 /dev/block/sdg         	  flags=fsflags=utf8;display="USB-Pendrive";storage;wipeingui;removable
 /sdcard1   	vfat   	/dev/block/mmcblk0p1  		/dev/block/mmcblk0   	  flags=display="MicroSD";storage;wipeingui;removable
 #
+
