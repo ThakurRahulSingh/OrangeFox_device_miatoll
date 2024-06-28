@@ -158,18 +158,12 @@ TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 TW_EXCLUDE_APEX := true
 
 # screen settings
-TW_CLOCK_POS := 1
 TW_IGNORE_LOGICAL_MOUNT_ERRORS := 1
 TW_DONT_PATCH_ENCRYPTED_DEVICE := 1
 TW_NO_TREBLE_COMPATIBILITY_CHECK := 1
 TW_QUICK_BACKUP_LIST := /boot;/dtbo;
 TW_ENABLE_LPTOOLS := 1
-
-# ensure that /sdcard is bind-unmounted before f2fs data repair or format (required for FBE v1)
-OF_UNBIND_SDCARD_F2FS := 1
-
-
-# prevent MIUI from overwriting OrangeFox
+TW_UNBIND_SDCARD_F2FS := 1
 TW_PATCH_AVB20 := 1
 
 # MIUI/delta incremental OTA stuff
