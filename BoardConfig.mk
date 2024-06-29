@@ -138,6 +138,10 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal_zone0/temp
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_IS_64_BIT := true
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS := "50"
+TW_CUSTOM_CLOCK_POS := "290"
+TW_CUSTOM_BATTERY_POS := "800"
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi

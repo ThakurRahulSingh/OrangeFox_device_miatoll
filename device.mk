@@ -27,6 +27,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # device asserts
 TARGET_OTA_ASSERT_DEVICE := miatoll,curtana,excalibur,gram,joyeuse
 
+# Resolution
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 # Exclude Apex
 TW_EXCLUDE_APEX := true
 
