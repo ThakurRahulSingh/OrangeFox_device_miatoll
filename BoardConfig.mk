@@ -132,7 +132,6 @@ LC_ALL := C
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal_zone0/temp
 
 #Crypto
 BOARD_USES_QCOM_FBE_DECRYPTION := true
